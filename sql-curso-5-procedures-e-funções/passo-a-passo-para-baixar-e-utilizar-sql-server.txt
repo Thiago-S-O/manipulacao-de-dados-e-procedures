@@ -1,0 +1,97 @@
+Para prosseguir com o curso, precisamos instalar o SQL Server e o seu sistema de gerenciamento, o Management Studio. Caso você esteja seguindo a formação, pode pular essa atividade. Caso o contrário, siga o passo a passo para continuar com o curso.
+
+Instalando as ferramentas:
+1) Neste curso estamos usando o SQL Server CTP.
+
+2) Para baixar a versão do SQL Server 2022 CTP não pode ser usado um email com extensão de email público.
+
+3) Crie um email corporativo.
+
+4) Acesse o endereço do Microsoft 365 Business Basic clicando aqui.
+
+5) Entre com um e-mail pessoal e clique em próximo.
+
+6) Configure a conta com seus dados e da empresa fictícia.
+
+7) Envie o código SMS de verificação e entre com ele na página.
+
+8) Feche a página do navegador.
+
+9) No meu caso o email criado foi VictorinoBarreiros@vvila0965.onmicrosoft.com.
+
+10) Em outra janela do navegador procure por SQL SERVER 2022. Vá para a página https://www.microsoft.com/pt-br/sql-server/sql-server-2022 e escolha a opção Experimente agora.
+
+11) Preencha o cadastro para baixar a mídia.
+
+12) Entre com o email comercial criado anteriormente.
+
+13) Escolha a versão EXE download (64-bit edition).
+
+14) Baixe e execute o arquivo de instalação.
+
+15) Escolha o botão Baixar Mídia.
+
+16) Escolha idioma Português.
+
+17) Marque o pacote CAB e clique em Baixar.
+
+18) Copie os dois arquivos baixados para um diretório SQL2022.
+
+19) Dê um duplo clique no arquivo executável.
+
+20) Depois de extrair os arquivos quando abrir o instalador clique na opção Instalação.
+
+21) Escolha a opção Nova instalação autônoma do SQL Server.
+
+22) Aceite os termos da Microsoft e clique em Avançar nas próximas telas.
+
+23) Desmarque a opção Extensão do Azure para SQL Server.
+
+24) Na janela Seleção de Recursos escolha somente as opções Serviços de Mecanismos de Banco de Dados e SDK de Conectividade de Cliente SQL e clique em Avançar.
+
+25) Mantenha o nome padrão da Instância e clique em Avançar nas próximas telas.
+
+26) Na janela Configuração de Mecanismos de Banco de Dados escolha a opção Modo Misto entre com senha pedida para o usuário sa.
+
+27) No quadro Especificar administradores do SQL Server e clique em Adicionar usuário atual e depois em Avançar.
+
+28) Na próxima tela clique em Instalar.
+
+29) Reinicie a máquina.
+
+30) No navegador vá na página SQL Server Management Studio (SSMS).https://learn.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
+
+31) Clique no link Baixar o SQL Server Management Studio (SSMS) para iniciar o download do arquivo.
+
+32) Reinicie o computador.
+
+33) Execute o programa que foi baixado.
+
+34) Clique no botão Instalar.
+
+35) No Windows procure por Management Studio e clique no ícone do SSMS.
+
+36) Na tela de Login escolha a opção Autenticação do SQL Server e coloque o usuário sa com sua senha e marque Lembrar senha.
+
+37) Clique em Conectar.
+
+38) Outra opção de conexão é escolher a opção Autenticação do Windows e clicar no botão Conectar.
+
+Restaurando a base de dados
+1) Baixe o arquivo SUCOS_VENDAS.BAK na sua máquina e coloque em uma pasta (diretório) para o curso.
+
+2) Abra o Microsoft SQL Server Management Studio - SSMS e conecte na instância que será usada neste curso: MSSQLSERVER2.
+
+3) Para apagar a base de dados existente e clique com o botão direito do mouse sobre SUCOS_VENDAS e escolha a opção Excluir e marque Fechar conexões existentes.
+
+4) Crie a nova base de dado clicando com o botão direito do mouse sobre Banco de dados e escolha a opção Restaurar banco de dados.
+
+5) Na próxima página, clique nos três pontos em Dispositivo e na sequência emAdicionar um arquivo. Escolha o arquivo que foi baixado.
+
+6) Clique em Opções e escolha Substituir o banco de dados existente (WITH REPLACE). Para finalizar esse passo, clique em OK.
+
+7) O banco de dados foi recuperado com êxito.
+
+8) Pronto, agora já é possível clicar no banco de dados para verificar as tabelas.
+
+Com isso, nosso ambiente está preparado para realizarmos as atividades que virão pela frente.
